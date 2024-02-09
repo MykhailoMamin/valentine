@@ -5,7 +5,7 @@ body {
   justify-content: space-evenly;
   height: 100vh;
   margin: 0;
-  background: url("images/love3.jpg") repeat;
+  background: url("images/love.jpg") repeat;
   font-size: 35px;
   font-family: "Roboto Condensed", sans-serif;
   color: #cc0066;
@@ -79,6 +79,7 @@ body .container {
   font-family: "Courier New", Courier, monospace;
 }
 
+/* Small devices (phone, 576px and up) */
 @media (min-width: 576px) {
   .pp {
     font-size: 40px;
