@@ -65,7 +65,6 @@ body .container {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  margin-top: 60px;
 }
 
 #no-button {
