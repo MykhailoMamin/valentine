@@ -5,20 +5,19 @@ body {
   justify-content: space-evenly;
   height: 100vh;
   margin: 0;
-  background: url("images/image.jpg") repeat;
+  background: url("images/love3.jpg") repeat;
   font-size: 35px;
-  color: rgb(255, 0, 174);
+  font-family: "Roboto Condensed", sans-serif;
+  color: #cc0066;
   height: 100vh;
   position: fixed;
   width: 100%;
 }
 .hh {
-  -webkit-text-stroke: 2px #71004f;
   font-weight: 900;
   font-size: 50px;
 }
 .pp {
-  -webkit-text-stroke: 2px #71004f;
   font-size: 30px;
   font-style: oblique;
   font-weight: 800;
@@ -54,7 +53,7 @@ body .container {
   font-size: 26px;
   cursor: pointer;
   position: relative;
-  font-family: serif; /* Change to a romantic cursive font */
+  font-family: "Pacifico", cursive;
 }
 
 .buttons button:hover {
