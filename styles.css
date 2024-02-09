@@ -79,13 +79,23 @@ body .container {
   font-family: "Courier New", Courier, monospace;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
+  body {
+    font-size: 20px; /* Пример изменения размера шрифта */
+  }
+
   .pp {
-    font-size: 40px;
+    font-size: 20px; /* Пример изменения размера шрифта */
+    margin-bottom: 10px; /* Пример изменения отступов */
   }
 
   .hh {
-    font-size: 60px;
+    font-size: 30px; /* Пример изменения размера шрифта */
+    margin-bottom: 10px; /* Пример изменения отступов */
+  }
+
+  .buttons button {
+    font-size: 16px; /* Пример изменения размера шрифта для кнопок */
   }
 }
 
