@@ -62,6 +62,7 @@ body .container {
 }
 
 .buttons {
+  margin-top: 60px;
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -79,23 +80,13 @@ body .container {
   font-family: "Courier New", Courier, monospace;
 }
 
-@media (max-width: 576px) {
-  body {
-    font-size: 20px; /* Пример изменения размера шрифта */
-  }
-
+@media (min-width: 576px) {
   .pp {
-    font-size: 20px; /* Пример изменения размера шрифта */
-    margin-bottom: 10px; /* Пример изменения отступов */
+    font-size: 40px;
   }
 
   .hh {
-    font-size: 30px; /* Пример изменения размера шрифта */
-    margin-bottom: 10px; /* Пример изменения отступов */
-  }
-
-  .buttons button {
-    font-size: 16px; /* Пример изменения размера шрифта для кнопок */
+    font-size: 60px;
   }
 }
 
